@@ -10,5 +10,5 @@ TEST_CASE("testing class in separate file") {
 
   myProg.increment();
 
-  CHECK(!myProg.isEven());
+  CHECK_FALSE(myProg.isEven());
 }
